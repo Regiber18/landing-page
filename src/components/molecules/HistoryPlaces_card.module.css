@@ -1,0 +1,32 @@
+.cal_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#cal_images {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+
+
+#cal_text {
+    width: 100%;
+    height: 220px; 
+    padding: 5px;
+}
+
+#cal_title {
+    width: 100%;
+    height: 20%;
+}
+
+#cal_paragraph {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
