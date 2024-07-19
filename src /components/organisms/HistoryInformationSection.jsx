@@ -1,5 +1,5 @@
 import Information from "../molecules/History";
-import Style from "./HistoryInformation_section.module.css"
+import Style from "./HistoryInformationSection.module.css"
 
 function Third() {
     return(

@@ -1,5 +1,5 @@
-import Presentation from "../molecules/Header"
-import Style from "./Header_section.module.css"
+import Presentation from "../molecules/Presentation"
+import Style from "./Header.module.css"
 function First_section() {
 
         return(

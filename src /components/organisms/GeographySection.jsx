@@ -1,5 +1,5 @@
 import Geography from "../molecules/Geography";
-import Style from "./Geography_section.module.css"
+import Style from "./GeographySection.module.css"
 
 function Nine_section() {
     return(

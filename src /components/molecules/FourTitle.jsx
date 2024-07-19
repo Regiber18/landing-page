@@ -3,9 +3,9 @@ import Data from "../../data/Data"
 import Style from "./FourTitle.module.css"
 function Four_title() {
     return(
-        Data.page.four_title.map(item => {
+        Data.page.four_title.map((item, key) => {
             return(
-          <div id={Style.cal_title}>
+          <div key={key} id={Style.cal_title}>
              <Title title={item.title}></Title>
           </div>
             )

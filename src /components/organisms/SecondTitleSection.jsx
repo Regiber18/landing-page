@@ -1,5 +1,5 @@
 import Four_title from "../molecules/FourTitle"
-import Style from "./SecondTitle_section.module.css"
+import Style from "./SecondTitleSection.module.css"
 function Eight_section() {
     return(
         <div id={Style.cal_four}>

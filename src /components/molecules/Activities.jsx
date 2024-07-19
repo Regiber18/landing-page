@@ -1,15 +1,15 @@
 import Data from "../../data/Data"
-import Card from "../atoms/Activities_card"
 import Text from "../atoms/Paragraph"
 import Title from "../atoms/Title_card"
+import Img from "../atoms/Img"
 import Style from "./Activities.module.css"
 function Activities() {
     return(
-        Data.page.places_information.map(item => {
+        Data.page.places_information.map((item,key) => {
             return(
-            <Card>
+            <div key={key} className={Style.content}>
                 <div id={Style.cal_image}>
-                    <img src={item.image}></img>
+                    <Img src={item.image}></Img>
                 </div>
                 <div id={Style.cal_text}>
                     <div id={Style.cal_title}>
@@ -19,7 +19,7 @@ function Activities() {
                        <Text text={item.text}></Text> 
                     </div>
                 </div>
-            </Card>
+            </div>
           )
         })
         

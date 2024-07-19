@@ -1,16 +1,14 @@
-
 import Text from "../atoms/Paragraph"
 import Title from "../atoms/Title_card"
-import Card from "../atoms/History_card"
 import Data from "../../data/Data"
-import Style from "./HistoryPlaces_card.module.css"
+import Style from "./HistoryCard.module.css"
 function Heroe_card() {
 
 
     return(
-        Data.page.cards_data.map(item => {
+        Data.page.cards_data.map((item, key) => {
             return(
-            <Card>
+         <div key={key} id={Style.cal_card}>
             <div id={Style.cal_images}>
                 <img className={Style.cal_image} src={item.image}></img>
             </div>
@@ -22,7 +20,7 @@ function Heroe_card() {
                    <Text text={item.text}></Text> 
                 </div>
             </div>  
-            </Card>
+          </div>
               )
            }
         )

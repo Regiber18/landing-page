@@ -1,5 +1,5 @@
 import Activities from "../molecules/Activities";
-import Style from "./Activities_section.module.css"
+import Style from "./ActivitiesSection.module.css"
 function Seven_section() {
     return(
         <div id={Style.cal_activities}>

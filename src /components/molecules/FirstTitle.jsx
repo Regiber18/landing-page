@@ -4,9 +4,9 @@ import Data from "../../data/Data"
 function First_title() {
 
     return(   
-    Data.page.first_title.map(item => {
+    Data.page.first_title.map((item, key) => {
         return(
-        <div id={Style.cal_title}>
+        <div key={key} id={Style.cal_title}>
                <Title title={item.title}> </Title> 
         </div>)
     })

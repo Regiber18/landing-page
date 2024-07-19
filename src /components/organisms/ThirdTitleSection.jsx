@@ -1,5 +1,5 @@
 import Second from "../molecules/SecondTitle"
-import Style from "./ThirdTitle_section.module.css"
+import Style from "./ThirdTitleSection.module.css"
 
 function Four() {
     return(

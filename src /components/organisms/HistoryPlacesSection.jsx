@@ -1,5 +1,5 @@
-import Card from "../molecules/HistoryPlaces_card"
-import Style from "./HistoryPlaces_section.module.css"
+import Card from "../molecules/HistoryCard"
+import Style from "./HistoryPlacesSection.module.css"
 function Five_section() {
 
     return(
